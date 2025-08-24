@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  font-family: "Poppins", sans-serif;
+}
+
+.fixed {
+  position: fixed;
+  backdrop-filter: blur(2px);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
